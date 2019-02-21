@@ -29,7 +29,7 @@ pipelines:
             build:
               artifacts:
                 - build:
-                    source: dist
+                    source: build
                     destination: dist
               resources:
                 - node
